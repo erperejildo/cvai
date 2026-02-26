@@ -8,8 +8,6 @@ import { Header } from './components/Header/Header';
 const resumeUrl = import.meta.env.BASE_URL + 'resumes/resume.md';
 const THEME_KEY = 'cvai-theme';
 
-// ...existing code...
-
 function getSystemTheme() {
   if (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     return 'dark';
@@ -31,7 +29,7 @@ function App() {
     document.documentElement.setAttribute('data-theme', theme);
     try {
       localStorage.setItem(THEME_KEY, theme);
-    } catch {}
+    } catch { }
   }, [theme]);
 
   useEffect(() => {
@@ -47,13 +45,6 @@ function App() {
 
   const toggleTheme = () => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
 
-  const contactInfo = (cv.contacts || []).map((c: any) => ({
-    label: c.label,
-    value: c.value,
-    href: c.href,
-    icon: c.icon || '🔗',
-  }));
-
   return (
     <div className="cvai-app">
       <Header
@@ -65,10 +56,6 @@ function App() {
         toggleTheme={toggleTheme}
       />
       <MainLayout
-        name={`${cv.name} ${cv.lastname}`}
-        bio={cv.titles?.join(' · ') || ''}
-        contacts={contactInfo}
-        sections={cv.sections}
       />
       <Footer />
     </div>
