@@ -12,3 +12,4 @@ web-cv/node_modules
 web-cv/dist
 web-cv/dist-ssr
 web-cv/*.local
+.vite
