@@ -32,10 +32,12 @@ Don't generate this just for now!
 	- Bullet points below → description
 - Ensure all sections are parsed and structured for consistent rendering in the site.
 - Always proofread for typos and grammar.
+
 **Resume Markdown Parsing**
 - When converting resume.md to cv.json, remove all lines containing contact info, name, or titles.
 - Identify and extract section headers, subheaders, subsubheaders, and descriptions as described above.
 - Structure cv.json.sections as an ordered array of {section_title, items}, where items include parsed subheaders, subsubheaders, and descriptions.
+- For each work experience entry, always include a brief company description (if available) immediately after the job/company/dates and before the bullet points. This provides context about the company and is considered best practice for detailed CVs.
 
 ## Global Rules
 
@@ -175,6 +177,42 @@ The following defaults are supplied so an LLM or automation agent can perform th
 1. Automatic push/PR: `no` — do NOT push or open PRs. (A separate PR-generation prompt handles push/PR workflows.)
 2. Base branch for PRs (if later requested): `main`.
 3. Icon strategy: prefer project SVG/icon components when available; if an icon is not available, use a generic link/URL icon as the fallback.
+
+### Icon Selection Rules for Contact Methods (Expanded)
+
+1. **Brand/Service-Specific First:**  
+	- Always use a brand, service, or platform-specific icon if one exists (e.g., GitHub, LinkedIn, Stack Overflow, Twitter, etc.).
+	- Prefer the most recognizable or official icon for the service (e.g., GitHub’s octocat, Stack Overflow’s stack/laptop, LinkedIn’s “in” logo).
+
+2. **Category/Function Icon Second:**  
+	- If no brand-specific icon is available, use a generic icon that clearly represents the function or category (e.g., envelope for email, phone for phone number, briefcase for work, globe for website).
+
+3. **Fallback/Default Icon Last:**  
+	- Only use a generic “share” or “link” icon if the contact method is truly unusual or cannot be represented by a brand or category icon.
+	- The default icon should be a last resort, not the standard for well-known services.
+
+4. **Never Use Default for Major Platforms:**  
+	- Never use the default icon for major platforms (GitHub, Stack Overflow, LinkedIn, Twitter, etc.)—always try to find a more specific or creative icon.
+
+5. **Consistency:**  
+	- Use the same icon for the same service across all resumes and outputs for consistency.
+
+6. **Creativity Encouraged:**  
+	- If a brand icon is not available, use a creative, intuitive icon that best represents the service or its function.
+
+**Example Table:**
+
+| Service         | Preferred Icon         | Fallback Icon      |
+|-----------------|-----------------------|--------------------|
+| GitHub          | Octocat/Mark          | Code/Terminal      |
+| Stack Overflow  | Stack/Laptop          | Q&A/Forum          |
+| LinkedIn        | “in” Logo/Briefcase   | Business Card      |
+| Email           | Envelope              | Mailbox            |
+| Website         | Globe                 | Link/Chain         |
+| Twitter/X       | Bird/X Logo           | Hashtag            |
+| Other/Unknown   | Relevant Category     | Share/Link         |
+
+Add these rules to ensure the generator always tries to find the best possible icon for each contact method, only using the default as a true fallback.
 4. Date format: follow the date format used in the generated `detailed-CV.md` (use the full month name + year as shown, e.g. `February 2020`).
 
 These defaults are authoritative for the automated run of this prompt. If you want different behavior, update these values in the prompt file before running the automation.

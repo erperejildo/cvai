@@ -21,7 +21,7 @@ export const ResumeMarkdown = () => {
                     <span>{item.company}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em>
+                    <em className={styles.contactValue}>
                       {item.dates}
                       {item.location ? ' · ' + item.location : ''}
                     </em>
@@ -44,7 +44,7 @@ export const ResumeMarkdown = () => {
                     <span>{item.title}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em>
+                    <em className={styles.contactValue}>
                       {item.dates}
                       {item.location ? ' · ' + item.location : ''}
                     </em>

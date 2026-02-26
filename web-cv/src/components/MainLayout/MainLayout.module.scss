@@ -6,14 +6,15 @@
   margin: 0 auto;
   width: 100%;
   min-height: 80vh;
-  gap: 1.5rem;
+  gap: var(--space-ml);
 }
+
 .main {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: var(--main-gutter-top) 1rem 3rem 0;
+  padding: var(--main-gutter-top) var(--space-md) var(--space-xl) var(--space-zero);
   background: var(--bg);
   min-width: 0;
 }

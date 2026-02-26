@@ -4,15 +4,17 @@
   align-items: center;
   margin-bottom: var(--main-gutter-top);
 }
+
 .profileName {
   font-size: var(--font-size-md);
-  font-weight: 700;
-  margin-bottom: 0.3rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--profile-margin-bottom-sm);
   text-align: center;
 }
+
 .profileBio {
   font-size: var(--font-size-base);
   color: var(--fg-muted);
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--profile-margin-bottom-md);
 }
