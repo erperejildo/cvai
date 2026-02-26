@@ -1,6 +1,6 @@
 
 
-.contactCard {
+.contact-card {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -31,17 +31,20 @@
     }
   }
 }
-.contactIcon {
+.contact-icon {
   font-size: 1.2em;
 }
-.contactLabel {
+.contact-label {
   font-weight: 600;
   margin-right: 0.2em;
 }
-.contactValue {
-  font-family: monospace;
-}
-.contactText {
+.contact-value {
+      font-family: monospace;
+    display: block;
+    color: var(--fg-muted);
+    margin-top: 2px;
+    white-space: normal;}
+.contact-text {
   display: flex;
   flex-direction: column;
 }

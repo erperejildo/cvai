@@ -40,6 +40,13 @@ body[data-theme='dark'] {
   line-height: 1.1;
 }
 
+/* Global section title style for CV */
+.cv-section-title {
+  font-size: 1.2rem;
+  color: var(--accent);
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
 body[data-theme='light'] {
   color-scheme: light;
   color: #213547;

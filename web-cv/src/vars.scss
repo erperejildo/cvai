@@ -1,5 +1,6 @@
 
 /* Design system variables as CSS custom properties */
+
 :root {
 	/* Colors */
 	--accent: #646cff;
@@ -14,7 +15,9 @@
 	--main-gutter-top: 2rem;
 	--content-max: 1200px;
 	--sidebar-width: 260px;
-	--header-height: 72px;
+	--header-height: 115px;
+
+
 
 	/* Typography */
 	--font-size-base: 1rem;

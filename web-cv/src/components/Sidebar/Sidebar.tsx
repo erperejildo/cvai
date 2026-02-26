@@ -1,16 +1,10 @@
-import { Profile } from '../Profile/Profile';
+// ...existing code...
 import { ContactCard } from '../ContactCard/ContactCard';
 import styles from './Sidebar.module.scss';
+import cv from '../../data/cv.json';
 
-interface SidebarProps {
-  name: string;
-  bio: string;
-  contacts: Array<{ label: string; value: string; href: string; icon: string }>;
-}
-
-export const Sidebar = ({ name, bio, contacts }: SidebarProps) => (
+export const Sidebar = () => (
   <aside className={styles.sidebar}>
-    <Profile name={name} bio={bio} />
-    <ContactCard contacts={contacts} />
+    <ContactCard contacts={cv.contacts} />
   </aside>
 );

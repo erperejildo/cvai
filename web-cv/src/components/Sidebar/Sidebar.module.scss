@@ -6,7 +6,7 @@
   max-width: 320px;
   padding: var(--main-gutter-top) 1rem var(--main-gutter-top) 2rem;
   position: sticky;
-  top: var(--sidebar-top-px, calc(var(--header-height) + var(--main-gutter-top)));
+  top: calc(var(--header-height) + var(--main-gutter-top));
   align-self: flex-start;
   background: var(--card-bg);
   border-radius: var(--radius-lg);
