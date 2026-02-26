@@ -1,7 +1,12 @@
-import json from "@eslint/json";
-import { defineConfig } from "eslint/config";
+import json from '@eslint/json';
+import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
-  { ignores: ["**/*.js", "**/*.cjs", "**/*.mjs"] },
-  { files: ["**/*.jsonc"], plugins: { json }, language: "json/jsonc", extends: ["json/recommended"] },
+  { ignores: ['**/*.js', '**/*.cjs', '**/*.mjs'] },
+  {
+    files: ['**/*.jsonc'],
+    plugins: { json },
+    language: 'json/jsonc',
+    extends: ['json/recommended'],
+  },
 ]);

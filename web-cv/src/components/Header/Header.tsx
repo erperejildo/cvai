@@ -12,21 +12,40 @@ interface HeaderProps {
 export const Header = ({ name, lastname, titles, resumeUrl, theme, toggleTheme }: HeaderProps) => (
   <header className={styles['cvai-header']}>
     <div className={styles['cvai-header-inner']}>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.25rem' }}>
-        <h1 className={styles['cvai-title']}>{name} {lastname}</h1>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-start',
+          gap: '0.25rem',
+        }}
+      >
+        <h1 className={styles['cvai-title']}>
+          {name} {lastname}
+        </h1>
         <div className={styles['cvai-header-subtitle']}>{Array.isArray(titles) ? titles.join(' · ') : titles}</div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
         <nav className={styles['cvai-nav']} aria-label="Main navigation">
           <ul>
             <li>
-              <a href={resumeUrl} download="resume.md">Download CV</a>
+              <a href={resumeUrl} download="resume.md">
+                Download CV
+              </a>
             </li>
           </ul>
         </nav>
         <button className={styles['theme-toggle']} onClick={toggleTheme} aria-label="Toggle dark mode">
           {theme === 'dark' ? (
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Light mode">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Light mode"
+            >
               <title>Switch to light mode</title>
               <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" fill="none" />
               <g stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
@@ -41,9 +60,24 @@ export const Header = ({ name, lastname, titles, resumeUrl, theme, toggleTheme }
               </g>
             </svg>
           ) : (
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dark mode">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Dark mode"
+            >
               <title>Switch to dark mode</title>
-              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+              <path
+                d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
           )}
         </button>

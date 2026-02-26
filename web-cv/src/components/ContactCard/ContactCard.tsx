@@ -17,9 +17,12 @@ export const ContactCard = ({ contacts }: { contacts: ContactInfo[] }) => (
         const isMail = typeof item.href === 'string' && item.href.startsWith('mailto:');
         let icon = item.icon;
         if (!icon) {
-          if ((item as any).type === 'email') icon = '\ud83d\udce7'; // Email icon
-          else if ((item as any).type === 'phone') icon = '\ud83d\udcde'; // Phone icon
-          else if ((item as any).type === 'linkedin') icon = '\ud83d\udcbc'; // LinkedIn icon
+          if ((item as any).type === 'email')
+            icon = '\ud83d\udce7'; // Email icon
+          else if ((item as any).type === 'phone')
+            icon = '\ud83d\udcde'; // Phone icon
+          else if ((item as any).type === 'linkedin')
+            icon = '\ud83d\udcbc'; // LinkedIn icon
           else icon = '\ud83d\udd17'; // Default icon
         }
         return (

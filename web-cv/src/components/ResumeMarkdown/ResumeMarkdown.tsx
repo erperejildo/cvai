@@ -1,4 +1,3 @@
-
 import styles from './ResumeMarkdown.module.scss';
 import cv from '../../data/cv.json';
 
@@ -16,17 +15,22 @@ export const ResumeMarkdown = () => {
             if (item.title && item.company) {
               return (
                 <div key={itemIdx} className={styles.resumeItem}>
-                  <div className="cv-section-title" style={{display: 'flex', alignItems: 'center', gap: '0.4em'}}>
+                  <div className="cv-section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.4em' }}>
                     <span>{item.title}</span>
-                    <span style={{fontWeight: 500}}>&mdash;</span>
+                    <span style={{ fontWeight: 500 }}>&mdash;</span>
                     <span>{item.company}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em>{item.dates}{item.location ? ' · ' + item.location : ''}</em>
+                    <em>
+                      {item.dates}
+                      {item.location ? ' · ' + item.location : ''}
+                    </em>
                   </div>
                   {Array.isArray(item.bullets) && item.bullets.length > 0 && (
                     <ul className={styles.jobBullets}>
-                      {item.bullets.map((b: string, i: number) => <li key={i}>{b}</li>)}
+                      {item.bullets.map((b: string, i: number) => (
+                        <li key={i}>{b}</li>
+                      ))}
                     </ul>
                   )}
                 </div>
@@ -36,15 +40,20 @@ export const ResumeMarkdown = () => {
             if (item.title && item.dates) {
               return (
                 <div key={itemIdx} className={styles.educationItem}>
-                  <div className="cv-section-title" style={{display: 'flex', alignItems: 'center', gap: '0.4em'}}>
+                  <div className="cv-section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.4em' }}>
                     <span>{item.title}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em>{item.dates}{item.location ? ' · ' + item.location : ''}</em>
+                    <em>
+                      {item.dates}
+                      {item.location ? ' · ' + item.location : ''}
+                    </em>
                   </div>
                   {Array.isArray(item.bullets) && item.bullets.length > 0 && (
                     <ul className={styles.jobBullets}>
-                      {item.bullets.map((b: string, i: number) => <li key={i}>{b}</li>)}
+                      {item.bullets.map((b: string, i: number) => (
+                        <li key={i}>{b}</li>
+                      ))}
                     </ul>
                   )}
                 </div>

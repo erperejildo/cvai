@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import cv from './data/cv.json';
 import './App.scss';
@@ -34,8 +33,6 @@ function App() {
       localStorage.setItem(THEME_KEY, theme);
     } catch {}
   }, [theme]);
-
-  
 
   useEffect(() => {
     const listener = (e: MediaQueryListEvent) => {

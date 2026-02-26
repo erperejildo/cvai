@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   color-scheme: dark;
   --bg: #181a1b;
   --fg: #f3f3f3;
@@ -20,7 +20,7 @@ html[data-theme="dark"] {
   --border: #333;
 }
 
-html[data-theme="light"] {
+html[data-theme='light'] {
   color-scheme: light;
   --bg: #f7f7f7;
   --fg: #23272f;
@@ -68,7 +68,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root:not([data-theme]) {

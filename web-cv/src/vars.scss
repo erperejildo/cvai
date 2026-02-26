@@ -1,36 +1,33 @@
-
 /* Design system variables as CSS custom properties */
 
 :root {
-	/* Colors */
-	--accent: #646cff;
-	--fg: #222;
-	--fg-muted: #aaa;
-	--card-bg: #fff;
-	--header-bg: #f8f9fa;
-	--border: #e0e0e0;
-	--bg: #f5f6fa;
+  /* Colors */
+  --accent: #646cff;
+  --fg: #222;
+  --fg-muted: #aaa;
+  --card-bg: #fff;
+  --header-bg: #f8f9fa;
+  --border: #e0e0e0;
+  --bg: #f5f6fa;
 
-	/* Spacing */
-	--main-gutter-top: 2rem;
-	--content-max: 1200px;
-	--sidebar-width: 260px;
-	--header-height: 115px;
+  /* Spacing */
+  --main-gutter-top: 2rem;
+  --content-max: 1200px;
+  --sidebar-width: 260px;
+  --header-height: 115px;
 
+  /* Typography */
+  --font-size-base: 1rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.25rem;
+  --font-size-sm: 0.95rem;
 
+  /* Shadows */
+  --shadow-card: 0 2px 16px 0 rgba(0, 0, 0, 0.07);
+  --shadow-sidebar: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
 
-	/* Typography */
-	--font-size-base: 1rem;
-	--font-size-lg: 2rem;
-	--font-size-md: 1.25rem;
-	--font-size-sm: 0.95rem;
-
-	/* Shadows */
-	--shadow-card: 0 2px 16px 0 rgba(0,0,0,0.07);
-	--shadow-sidebar: 0 4px 24px 0 rgba(0,0,0,0.10);
-
-	/* Border radius */
-	--radius-lg: 1rem;
-	--radius-md: 10px;
-	--radius-sm: 4px;
+  /* Border radius */
+  --radius-lg: 1rem;
+  --radius-md: 10px;
+  --radius-sm: 4px;
 }
