@@ -17,6 +17,7 @@ All improvements follow strict global rules (see .github/copilot-instructions.md
 
 1. **Paste your current CV** in markdown (.md) format into the repository as `resume.md` (in the root folder).
    - If your CV is not in .md format (e.g., PDF or DOCX), you can use Google Drive: upload your file, open it with Google Docs, then go to File > Download > Markdown (.md) to export it as markdown.
+   - From Google Drive there is also the option to export as .md
 
 2. *(Recommended)* **Add job offers and "not interested" info**:
    - To help the AI tailor your CV, add job offers you are interested in as `.md` files in `docs/job-offers/` (see `docs/job-offers/info.md` for details).

@@ -1,13 +1,83 @@
+/* Group for nav + theme toggle */
+.cvai-header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .cvai-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cvai-header-actions {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--space-md);
+    gap: var(--space-md);
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cvai-nav ul {
+    justify-content: center;
+    display: flex;
+    gap: var(--space-md);
+    margin-top: 0;
+  }
+
+  .theme-toggle {
+    margin-top: 0;
+    margin-right: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cvai-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cvai-nav ul {
+    justify-content: center;
+    display: flex;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+  }
+
+  .theme-toggle {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
 .cvai-header {
   background: var(--header-bg);
   color: var(--fg);
-  width: 100vw;
   margin-left: calc(50% - 50vw);
   padding: 0;
   border-bottom: var(--border-size) solid var(--border);
   position: sticky;
   top: 0;
   z-index: 3000;
+
+  @media (max-width: 1200px) {
+    position: static;
+    box-shadow: none;
+    border-bottom: none;
+
+    .cvai-header-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
   min-height: var(--header-height);
   display: flex;
 }
@@ -42,6 +112,7 @@
   font-weight: var(--font-weight-bold);
   padding: var(--nav-link-padding);
   border-radius: var(--nav-link-radius);
+  white-space: nowrap;
 }
 
 .cvai-nav ul {
@@ -58,7 +129,6 @@
   border-radius: var(--theme-toggle-border-radius);
   cursor: pointer;
   color: var(--accent);
-  margin-right: var(--space-md);
   transition:
     color 0.2s,
     background 0.2s,
@@ -115,12 +185,14 @@
     gap: var(--space-md);
     align-items: center;
   }
+
   a {
     color: var(--fg);
     text-decoration: none;
     font-weight: var(--font-weight-bold);
     padding: var(--nav-link-padding);
     border-radius: var(--radius-sm);
+
     &:hover {
       background: var(--nav-link-hover-bg);
       color: var(--accent);
@@ -145,9 +217,11 @@
   align-items: center;
   justify-content: center;
   line-height: 0;
+
   svg {
     display: block;
   }
+
   &:hover {
     color: var(--theme-toggle-hover);
     background: var(--card-bg);

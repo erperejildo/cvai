@@ -12,20 +12,13 @@ interface HeaderProps {
 export const Header = ({ name, lastname, titles, resumeUrl, theme, toggleTheme }: HeaderProps) => (
   <header className={styles['cvai-header']}>
     <div className={styles['cvai-header-inner']}>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
-          gap: '0.25rem',
-        }}
-      >
+      <div className={styles['cvai-header-title-group']}>
         <h1 className={styles['cvai-title']}>
           {name} {lastname}
         </h1>
         <div className={styles['cvai-header-subtitle']}>{Array.isArray(titles) ? titles.join(' · ') : titles}</div>
       </div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+      <div className={styles['cvai-header-actions']}>
         <nav className={styles['cvai-nav']} aria-label="Main navigation">
           <ul>
             <li>

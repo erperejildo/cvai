@@ -7,6 +7,16 @@
   width: 100%;
   min-height: 80vh;
   gap: var(--space-ml);
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    gap: var(--space-md);
+    align-items: stretch;
+
+    .main {
+      padding-top: 0;
+    }
+  }
 }
 
 .main {
