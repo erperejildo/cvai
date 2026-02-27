@@ -4,7 +4,7 @@ import cv from '../../data/cv.json';
 export const ResumeMarkdown = () => {
   // Render all sections in cv.sections in order
   return (
-    <div className={styles.resumeMarkdown}>
+    <div className={styles['resume-markdown']}>
       {cv.sections.map((section: any, idx: number) => (
         <section key={idx} className={styles.section}>
           <h3>{section.section_title}</h3>
@@ -21,11 +21,16 @@ export const ResumeMarkdown = () => {
                     <span>{item.company}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em className={styles.contactValue}>
+                    <em className={styles['contact-value']}>
                       {item.dates}
                       {item.location ? ' · ' + item.location : ''}
                     </em>
                   </div>
+                  {item.company_description && (
+                    <div className={styles['company-description-as-bullet']}>
+                      {item.company_description}
+                    </div>
+                  )}
                   {Array.isArray(item.bullets) && item.bullets.length > 0 && (
                     <ul className={styles.jobBullets}>
                       {item.bullets.map((b: string, i: number) => (
@@ -39,12 +44,12 @@ export const ResumeMarkdown = () => {
             // Education
             if (item.title && item.dates) {
               return (
-                <div key={itemIdx} className={styles.educationItem}>
+                <div key={itemIdx} className={styles['education-item']}>
                   <div className="cv-section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.4em' }}>
                     <span>{item.title}</span>
                   </div>
                   <div className={styles.jobMeta}>
-                    <em className={styles.contactValue}>
+                    <em className={styles['contact-value']}>
                       {item.dates}
                       {item.location ? ' · ' + item.location : ''}
                     </em>

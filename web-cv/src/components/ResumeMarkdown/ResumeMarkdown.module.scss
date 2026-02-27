@@ -1,4 +1,12 @@
-.resumeMarkdown {
+/* Company description styling */
+.company-description-as-bullet {
+  color: var(--fg);
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.resume-markdown {
   background: var(--card-bg);
   color: var(--fg);
   border-radius: var(--radius-lg);
@@ -28,11 +36,6 @@
     color: var(--fg);
   }
 
-  ul,
-  ol {
-    margin-left: var(--resume-list-margin-left);
-  }
-
   li {
     transform: c;
   }
@@ -50,6 +53,10 @@
     text-decoration: underline;
   }
 
+  ul {
+    margin-top: var(--space-sm);
+  }
+
   hr {
     border: none;
     border-top: var(--border-size) solid var(--border);
@@ -57,13 +64,13 @@
   }
 
   /* Spacing between education items */
-  .educationItem {
+  .education-item {
     margin-bottom: var(--resume-education-item-margin-bottom);
   }
 }
 
 // Match sidebar .contact-value style
-.contactValue {
+.contact-value {
   font-family: monospace;
   display: block;
   color: var(--fg-muted);

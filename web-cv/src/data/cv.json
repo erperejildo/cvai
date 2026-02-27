@@ -1,7 +1,11 @@
 {
   "name": "Daniel",
-  "lastname": "Rodriguez",
-  "titles": ["Senior Front End Developer", "Senior Mobile Developer", "Full Stack Developer"],
+  "lastname": "Rodríguez Ramírez",
+  "titles": [
+    "Senior Frontend Developer",
+    "Mobile Developer",
+    "Full Stack Developer"
+  ],
   "contacts": [
     {
       "type": "email",
@@ -23,14 +27,14 @@
     },
     {
       "type": "stackoverflow",
-      "label": "Stackoverflow",
+      "label": "Stack Overflow",
       "value": "4858133",
       "href": "https://stackoverflow.com/users/4858133/dani"
     }
   ],
   "sections": [
     {
-      "section_title": "Resume Summary",
+      "section_title": "Professional Summary",
       "items": [
         {
           "content": "Experienced software developer specializing in website and mobile app development since 2010. Continually expanding my technology skill set to drive software innovation."
@@ -42,13 +46,15 @@
       "items": [
         {
           "title": "Senior Mobile Developer",
-          "company": "DRODRIGUEZ.APPS",
+          "company": "drodriguez.apps",
           "dates": "August 2014 – Present",
+          "location": "",
+          "company_description": "Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS.",
           "bullets": [
-            "Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries for Android and iOS platforms",
+            "Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries",
             "Created home screen widgets in Kotlin from scratch",
             "Ran Flutter courses for co-workers",
-            "Utilized Firebase (firestore database, authentication, cloud functions, crashlytics) and Meteor (JavaScript + Node.js + MongoDB) for full-stack projects, gaining expertise in server management with Ubuntu and Nginx",
+            "Utilized Firebase (firestore database, authentication, cloud functions, crashlytics) and Meteor (JavaScript + Node.js + MongoDB) for full-stack projects",
             "Implemented Gitlab CI and Docker for CI/CD automation in DevOps",
             "Managed marketing activities such as Google Ads campaigns and promotions, designed logos using Photoshop and Illustrator, and engineered project architecture from inception",
             "Executed ASO strategies to enhance mobile app downloads and conducted SEO on micro niches"
@@ -57,93 +63,68 @@
         {
           "title": "Senior Front End Developer",
           "company": "PlaytestCloud",
-          "dates": "February 2025 – February 2026 (Berlin remote)",
+          "dates": "February 2025 – February 2026",
+          "location": "Berlin (remote)",
+          "company_description": "PlaytestCloud is a player insights platform and user testing service for video game studios.",
           "bullets": [
             "Unified Design and Frontend teams by establishing a continuous communication loop and synchronizing Figma variables to resolve design gaps",
-            "Modernized the UI layer by migrating from Bootstrap to Taiga UI, refactoring legacy templates into a modular, component-based architecture to improve scalability",
-            "Managed major Angular version upgrades and integrated AI-MCPs with Jira and GitHub to automate developer workflows and ensure codebase stability"
+            "Modernized the UI layer by migrating from Bootstrap to Taiga UI, refactoring legacy templates into a modular, component-based architecture",
+            "Managed major Angular version upgrades and integrated AI-MCPs with Jira and GitHub to automate developer workflows"
           ]
         },
         {
           "title": "Senior Front End Developer",
           "company": "YouGov",
-          "dates": "February 2020 – January 2024 (London remote)",
+          "dates": "February 2020 – January 2024",
+          "location": "London (remote)",
+          "company_description": "YouGov is an international research data and analytics group offering data-led marketing support to a diverse customer base.",
           "bullets": [
             "Utilized the latest Angular and React versions along with TypeScript and SCSS/Tailwind for front-end development",
-            "Supported legacy code including JS, jQuery, AngularJS, and Handlebars in projects",
+            "Supported legacy code including JS, jQuery, AngularJS, and Handlebars",
             "Implemented Gitlab CI/CD and Docker for efficient deployment processes",
-            "Conducted Behavior-Driven Development (BDD) using testcafe and gherkin-testcafe for both desktop and mobile platforms"
+            "Conducted Behavior-Driven Development (BDD) using testcafe and gherkin-testcafe"
           ]
         },
         {
           "title": "Senior Full Stack Developer",
           "company": "DVELP",
-          "dates": "November 2018 – December 2019 (London remote)",
+          "dates": "November 2018 – December 2019",
+          "location": "London (remote)",
+          "company_description": "DVELP specialized in creating contact centers and chatbots using React and Twilio Flex.",
           "bullets": [
             "Utilized Flutter for app development",
-            "Junior devs mentorship",
-            "Led JS tips and best practices courses focused on main library (Flex)",
-            "Worked on React 16.9 projects, Next.js, Chart.js SASS, TypeScript (TS), ES6",
+            "Mentored junior developers",
+            "Led JS tips and best practices courses",
+            "Worked on React 16.9 projects, Next.js, Chart.js, SASS, TypeScript, ES6",
             "Implemented Node.js with Express for backend development",
-            "Developed PoC (Proof of Concept) using NativeScript for mobile native project"
+            "Developed PoC using NativeScript for mobile native project"
           ]
         },
         {
           "title": "Senior Front End Developer",
           "company": "AND Digital",
-          "dates": "August 2016 – November 2018 (London)",
+          "dates": "August 2016 – November 2018",
+          "location": "London",
+          "company_description": "AND Digital helps clients reach digital aspirations and upskills their teams through a digital learning Academy.",
           "bullets": [
             "Worked with Angular, AngularJS, React, HTML5, CSS3 (Sass), Docker, CI, and Scrum",
-            "Conducted automated testing with Karma for unit tests and Nightwatch and Protractor for E2E",
-            "Mentored junior team members, teaching them the implementation of Angular, general Javascript, and CSS"
-          ]
-        },
-        {
-          "title": "Front End Developer",
-          "company": "WhiteStuff",
-          "dates": "October 2018 – November 2018 (Consultant Work)",
-          "bullets": [
-            "Worked on the ecommerce website as a Front End Developer",
-            "Led the refactoring process from jQuery to Angular"
-          ]
-        },
-        {
-          "title": "Front End Developer",
-          "company": "British Airways",
-          "dates": "Consultant Work",
-          "bullets": [
-            "Estimated new Angular projects",
-            "Created a Proof of Concept integrating Angular 6 and React into AngularJS",
-            "Conducted a study on different frameworks for booking flow, including seat mapping"
-          ]
-        },
-        {
-          "title": "Front End Developer",
-          "company": "The Telegraph",
-          "dates": "January 2018 – July 2018",
-          "bullets": [
-            "Sole Front End Developer responsible for UX and integration",
-            "Worked on private accounts, payments, and subscriptions"
-          ]
-        },
-        {
-          "title": "Front End Developer",
-          "company": "Premier Inn — Whitbread",
-          "dates": "December 2016 – September 2017",
-          "bullets": [
-            "Worked across 3 teams (responsive, business booker, booking flow)",
-            "Initiated a JavaScript repository with shareable AngularJS components",
-            "Mentored junior developers through pair programming",
-            "Dockerized the project for easy setup"
+            "Conducted automated testing with Karma, Nightwatch, and Protractor",
+            "Mentored junior team members",
+            "WhiteStuff (Oct 2018 – Nov 2018): Refactored ecommerce site from jQuery to Angular",
+            "British Airways: Estimated Angular projects, created PoC integrating Angular 6 and React into AngularJS, studied frameworks for booking flow",
+            "The Telegraph (Jan 2018 – Jul 2018): Sole Front End Developer for UX and integration, worked on private accounts, payments, and subscriptions",
+            "Premier Inn – Whitbread (Dec 2016 – Sep 2017): Worked across multiple teams, created shareable AngularJS components, mentored developers, dockerized project"
           ]
         },
         {
           "title": "Senior Front End Developer",
           "company": "Nektan",
-          "dates": "October 2015 – May 2016 (London)",
+          "dates": "October 2015 – May 2016",
+          "location": "London",
+          "company_description": "Nektan is a leading international B2B mobile gaming content developer and platform provider.",
           "bullets": [
             "Developed new games using AngularJS, Canvas, ECMAScript 6, and HTML5",
-            "Designed and built a lobby website for the new games",
+            "Designed and built a lobby website for new games",
             "Implemented front-end design with Sass and CSS3",
             "Managed version control using Git",
             "Utilized Scrum methodology and JIRA"
@@ -152,31 +133,37 @@
         {
           "title": "Senior Front End Developer",
           "company": "Sopra Group",
-          "dates": "September 2014 – September 2015 (Madrid)",
+          "dates": "September 2014 – September 2015",
+          "location": "Madrid",
+          "company_description": "Sopra is a leading consulting firm in Spain.",
           "bullets": [
             "Developed websites for Sanitas using AngularJS and apps for BBVA using Ember.js",
-            "Implemented appointment management feature for BBVA",
+            "Implemented appointment management for BBVA",
             "Proposed website architecture to clients",
-            "Set up a local server using Node.js",
+            "Set up local server using Node.js",
             "Handled templates with Handlebars",
-            "Worked in an AGILE MVC environment"
+            "Worked in AGILE MVC environment"
           ]
         },
         {
           "title": "Senior Front End Developer",
           "company": "Inmediastudio",
-          "dates": "March 2013 – September 2014 (Madrid)",
+          "dates": "March 2013 – September 2014",
+          "location": "Madrid",
+          "company_description": "Inmediastudio develops educational apps for Santillana.",
           "bullets": [
             "Developed web applications using JavaScript and jQuery",
             "Utilized XML and JSON for language file management",
             "Implemented a mobile-first approach",
-            "Architected each project for optimal performance"
+            "Architected projects for optimal performance"
           ]
         },
         {
           "title": "Full Stack Developer",
           "company": "Wion",
-          "dates": "September 2012 – March 2013 (Barcelona remote)",
+          "dates": "September 2012 – March 2013",
+          "location": "Barcelona (remote)",
+          "company_description": "Wion specializes in digital marketing and website development for major companies.",
           "bullets": [
             "Developed back-end solutions using PHP and MySQL",
             "Optimized images with Photoshop",
@@ -186,7 +173,9 @@
         {
           "title": "Full Stack Developer",
           "company": "Isotools",
-          "dates": "April 2012 – September 2012 (Córdoba)",
+          "dates": "April 2012 – September 2012",
+          "location": "Córdoba",
+          "company_description": "Isotools is a consulting company with over 15 years of experience.",
           "bullets": [
             "Built an e-commerce website using Magento",
             "Created website layouts using CSS3 and HTML5",
@@ -196,7 +185,9 @@
         {
           "title": "Full Stack Developer",
           "company": "Dissoft Sur",
-          "dates": "June 2010 – September 2010 (Córdoba)",
+          "dates": "June 2010 – September 2010",
+          "location": "Córdoba",
+          "company_description": "Dissoft Sur is an online advertising company.",
           "bullets": [
             "Developed websites using CMS platforms like Joomla, Prestashop, and Wordpress",
             "Created CMS modules with JavaScript, jQuery, and PHP"
@@ -205,18 +196,22 @@
         {
           "title": "Full Stack Developer",
           "company": "Deidos Studio",
-          "dates": "March 2010 – June 2010 (Córdoba)",
+          "dates": "March 2010 – June 2010",
+          "location": "Córdoba",
+          "company_description": "Deidos Studio specializes in website development.",
           "bullets": [
-            "Utilized jQuery library for front-end development",
-            "Designed responsive websites",
-            "Used PHP with Zend Studio 1.7"
+            "Internship: utilized jQuery for front-end, designed responsive websites, used PHP with Zend Studio 1.7"
           ]
         },
         {
           "title": "Hardware Technician",
           "company": "PCCar",
-          "dates": "March 2008 – July 2008 (Córdoba)",
-          "bullets": ["Fixed and built computers as part of Computer System studies"]
+          "dates": "March 2008 – July 2008",
+          "location": "Córdoba",
+          "company_description": "PCCar is a computer repair and assembly company.",
+          "bullets": [
+            "Fixed and built computers as part of Computer System studies"
+          ]
         }
       ]
     },
@@ -237,15 +232,22 @@
           "dates": "2006 – 2008",
           "bullets": [
             "Expertise in repair and assembly of computer equipment",
-            "Proficient in Windows and Linux",
-            "Experienced in LAN wiring and scripting"
+            "Proficient in Windows and Linux (Fedora, Ubuntu)",
+            "Experienced in LAN wiring and capacity planning",
+            "Familiar with scripting for Linux, Windows, and Joomla CMS"
           ]
         },
-        { "title": "Social Media Marketing", "dates": "2024", "bullets": [] },
+        {
+          "title": "Social Media Marketing",
+          "dates": "2024",
+          "bullets": []
+        },
         {
           "title": "Database Management",
           "dates": "2011",
-          "bullets": ["Skilled in creating and managing RDBMS using MySQL and PL/SQL"]
+          "bullets": [
+            "Skilled in creating and managing RDBMS using MySQL and PL/SQL"
+          ]
         },
         {
           "title": "Commerce and Marketing",
@@ -253,7 +255,7 @@
           "bullets": [
             "Knowledgeable in marketing at the point of sale",
             "Experienced in creating effective marketing campaigns",
-            "Skilled in market research"
+            "Skilled in market research for business creation"
           ]
         }
       ]
