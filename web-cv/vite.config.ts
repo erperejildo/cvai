@@ -4,7 +4,8 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/cvai/',
+  // base: '/cvai/', // change this to your repo name if you don't have a custom domain
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {

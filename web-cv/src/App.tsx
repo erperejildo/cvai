@@ -43,12 +43,6 @@ function App() {
     return () => mq.removeEventListener('change', listener);
   }, []);
 
-
-  // Set page title to user name
-  useEffect(() => {
-    document.title = `${cv.name} ${cv.lastname}`;
-  }, []);
-
   const toggleTheme = () => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
 
   return (
