@@ -36,7 +36,9 @@ jobs:
         run: npm --prefix web-cv run build
 
       - name: Copy resume to dist
-        run: cp resume.md web-cv/dist/resumes
+        run: |
+          mkdir -p web-cv/dist/resumes
+          cp web-cv/resume.md web-cv/dist/resumes/resume.md
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
