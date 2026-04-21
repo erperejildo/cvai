@@ -27,9 +27,10 @@ export const ResumeMarkdown = () => {
                     </em>
                   </div>
                   {item.company_description && (
-                    <div className={styles['company-description-as-bullet']}>
-                      {item.company_description}
-                    </div>
+                    <div
+                      className={styles['company-description-as-bullet']}
+                      dangerouslySetInnerHTML={{ __html: item.company_description }}
+                    />
                   )}
                   {Array.isArray(item.bullets) && item.bullets.length > 0 && (
                     <ul className={styles.jobBullets}>

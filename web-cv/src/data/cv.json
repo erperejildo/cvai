@@ -45,9 +45,11 @@
           "company": "drodriguez.apps",
           "dates": "August 2014 – Present",
           "location": "",
-          "company_description": "Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS.",
+          "company_description": "Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS. Check <a target=\"_blank\" href=\"https://drodriguez-apps.github.io/\">here</a> my portfolio.",
           "bullets": [
             "Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries",
+            "AI use to automate work between all my apps and create shareable packages",
+            "Use of Figma to generate all the designs and the store screenshots",
             "Created home screen widgets in Kotlin from scratch",
             "Ran Flutter courses for co-workers",
             "Utilized Firebase (firestore database, authentication, cloud functions, crashlytics) and Meteor (JavaScript + Node.js + MongoDB) for full-stack projects",
