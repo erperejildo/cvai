@@ -1,22 +1,18 @@
 {
   "name": "Daniel",
   "lastname": "Rodríguez Ramírez",
-  "titles": [
-    "Senior Frontend Developer",
-    "Mobile Developer",
-    "Full Stack Developer"
-  ],
+  "titles": ["Senior Frontend|Mobile Developer"],
   "contacts": [
     {
       "type": "email",
       "label": "Email",
-      "value": "d15_1_89@msn.com",
-      "href": "mailto:d15_1_89@msn.com"
+      "value": "hello@dani-rodriguez.info",
+      "href": "mailto:hello@dani-rodriguez.info"
     },
     {
       "type": "linkedin",
       "label": "LinkedIn",
-      "value": "Daniel Rodríguez Ramírez",
+      "value": "Daniel Rodriguez Ramirez",
       "href": "https://www.linkedin.com/in/daniel-rodriguez-ramirez-6373a391/"
     },
     {
@@ -209,9 +205,7 @@
           "dates": "March 2008 – July 2008",
           "location": "Córdoba",
           "company_description": "PCCar is a computer repair and assembly company.",
-          "bullets": [
-            "Fixed and built computers as part of Computer System studies"
-          ]
+          "bullets": ["Fixed and built computers as part of Computer System studies"]
         }
       ]
     },
@@ -245,9 +239,7 @@
         {
           "title": "Database Management",
           "dates": "2011",
-          "bullets": [
-            "Skilled in creating and managing RDBMS using MySQL and PL/SQL"
-          ]
+          "bullets": ["Skilled in creating and managing RDBMS using MySQL and PL/SQL"]
         },
         {
           "title": "Commerce and Marketing",

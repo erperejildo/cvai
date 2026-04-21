@@ -132,7 +132,7 @@ To perform the full automated mapping and update the `web-cv` site without askin
 		"lastname": "Rodríguez Ramírez",
 		"titles": ["Frontend Developer","Mobile Developer"],
 		"contacts": [
-			{"type":"email","label":"Email","value":"d15_1_89@msn.com","href":"mailto:d15_1_89@msn.com"},
+			{"type":"email","label":"Email","value":"hello@dani-rodriguez.info","href":"mailto:hello@dani-rodriguez.info"},
 			{"type":"linkedin","label":"LinkedIn","value":"Daniel Rodríguez Ramírez","href":"https://..."},
 			{"type":"github","label":"GitHub","value":"erperejildo","href":"https://github.com/erperejildo"}
 		],
