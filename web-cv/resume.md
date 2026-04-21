@@ -13,7 +13,7 @@ E X P E R I E N C E
 SENIOR MOBILE DEVELOPER AT DRODRIGUEZ.APPS  
 August 2014 · present
 
-Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS.
+Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS. Check [here](https://drodriguez-apps.github.io/) my portfolio.
 
 - Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries  
 - AI use to automate work between all my apps and create shareable packages  
@@ -110,8 +110,6 @@ Nektan is a leading international B2B mobile gaming content developer and platfo
 - Implemented front-end design with Sass and CSS3 technologies  
 - Managed version control using Git system  
 - Utilized Scrum methodology and JIRA for project management
-
-
 
 
 SENIOR FRONT END DEVELOPER AT SOPRA GROUP  
