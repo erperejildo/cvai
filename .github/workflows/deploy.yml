@@ -38,7 +38,7 @@ jobs:
       - name: Copy resume to dist
         run: |
           mkdir -p web-cv/dist/resumes
-          cp web-cv/resume.md web-cv/dist/resumes/resume.md
+          cp resume.md web-cv/dist/resumes/
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
