@@ -1,39 +1,19 @@
 {
   "name": "Daniel",
   "lastname": "Rodríguez Ramírez",
-  "titles": ["Senior Frontend | Mobile Developer"],
+  "titles": ["Lead Software Developer", "Frontend & Mobile Engineer"],
   "contacts": [
-    {
-      "type": "email",
-      "label": "Email",
-      "value": "hello@dani-rodriguez.info",
-      "href": "mailto:hello@dani-rodriguez.info"
-    },
-    {
-      "type": "linkedin",
-      "label": "LinkedIn",
-      "value": "Daniel Rodriguez Ramirez",
-      "href": "https://www.linkedin.com/in/daniel-rodriguez-ramirez-6373a391/"
-    },
-    {
-      "type": "github",
-      "label": "GitHub",
-      "value": "erperejildo",
-      "href": "https://github.com/erperejildo"
-    },
-    {
-      "type": "stackoverflow",
-      "label": "Stack Overflow",
-      "value": "4858133",
-      "href": "https://stackoverflow.com/users/4858133/dani"
-    }
+    {"type": "email", "label": "Email", "value": "hello@dani-rodriguez.info", "href": "mailto:hello@dani-rodriguez.info"},
+    {"type": "linkedin", "label": "LinkedIn", "value": "Daniel Rodríguez Ramírez", "href": "https://www.linkedin.com/in/daniel-rodriguez-ramirez-6373a391/"},
+    {"type": "github", "label": "GitHub", "value": "erperejildo", "href": "https://github.com/erperejildo"},
+    {"type": "stackoverflow", "label": "Stack Overflow", "value": "4858133", "href": "https://stackoverflow.com/users/4858133/dani"}
   ],
   "sections": [
     {
       "section_title": "Professional Summary",
       "items": [
         {
-          "content": "Experienced software developer specializing in website and mobile app development since 2010. Continually expanding my technology skill set to drive software innovation."
+          "content": "Lead software developer with 16 years of experience building scalable web and mobile products for startups and established teams. Skilled at leading engineering delivery, modernizing frontend architecture, and launching profitable apps with strong subscription, ads, and growth strategies. Comfortable in remote and hybrid environments, with a track record of mentoring teams and shipping quality user experiences."
         }
       ]
     },
@@ -41,21 +21,19 @@
       "section_title": "Professional Experience",
       "items": [
         {
-          "title": "Senior Mobile Developer",
-          "company": "drodriguez.apps",
+          "title": "Founder & Lead Mobile Developer",
+          "company": "Axis Labs",
           "dates": "August 2014 – Present",
           "location": "",
-          "company_description": "Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS. Check <a target=\"_blank\" href=\"https://drodriguez-apps.github.io/\">here</a> my portfolio.",
+          "company_description": "Built a profitable mobile application business delivering end-to-end B2B and B2C software solutions while owning product engineering, cloud infrastructure, and user acquisition.",
           "bullets": [
-            "Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries",
-            "AI use to automate work between all my apps and create shareable packages",
-            "Use of Figma to generate all the designs and the store screenshots",
-            "Created home screen widgets in Kotlin from scratch",
-            "Ran Flutter courses for co-workers",
-            "Utilized Firebase (firestore database, authentication, cloud functions, crashlytics) and Meteor (JavaScript + Node.js + MongoDB) for full-stack projects",
-            "Implemented Gitlab CI and Docker for CI/CD automation in DevOps",
-            "Managed marketing activities such as Google Ads campaigns and promotions, designed logos using Photoshop and Illustrator, and engineered project architecture from inception",
-            "Executed ASO strategies to enhance mobile app downloads and conducted SEO on micro niches"
+            "Designed, developed, and launched multiple commercial mobile apps, including My Rents, with active subscriber revenue and ad monetization.",
+            "Implemented AdMob and mediation strategies to maximize fill rates and yield across multiple ad providers.",
+            "Led full-stack mobile development using Flutter and backend systems with Firebase.",
+            "Published open-source Flutter packages on pub.dev to simplify native integrations and state management for other developers.",
+            "Automated GitLab/GitHub CI/CD pipelines and Docker deployments, and built AI-driven workflow automation across codebases.",
+            "Created custom Kotlin Android home screen widgets to improve engagement and daily active usage.",
+            "Managed product design, branding, ASO, SEO, and growth marketing using Figma, Photoshop, and Illustrator."
           ]
         },
         {
@@ -63,11 +41,11 @@
           "company": "PlaytestCloud",
           "dates": "February 2025 – February 2026",
           "location": "Berlin (remote)",
-          "company_description": "PlaytestCloud is a player insights platform and user testing service for video game studios.",
+          "company_description": "PlaytestCloud is a player insights and user testing platform for mobile game studios.",
           "bullets": [
-            "Unified Design and Frontend teams by establishing a continuous communication loop and synchronizing Figma variables to resolve design gaps",
-            "Modernized the UI layer by migrating from Bootstrap to Taiga UI, refactoring legacy templates into a modular, component-based architecture",
-            "Managed major Angular version upgrades and integrated AI-MCPs with Jira and GitHub to automate developer workflows"
+            "Unified design and frontend teams through a continuous communication loop and synchronized Figma variables to eliminate design inconsistencies.",
+            "Modernized the UI by migrating from Bootstrap to Taiga UI and refactoring legacy templates into a modular component-based architecture.",
+            "Managed Angular upgrades and integrated AI-assisted automation with Jira and GitHub to improve developer workflows."
           ]
         },
         {
@@ -75,12 +53,12 @@
           "company": "YouGov",
           "dates": "February 2020 – January 2024",
           "location": "London (remote)",
-          "company_description": "YouGov is an international research data and analytics group offering data-led marketing support to a diverse customer base.",
+          "company_description": "YouGov is a global research data and analytics firm supporting brands and media owners.",
           "bullets": [
-            "Utilized the latest Angular and React versions along with TypeScript and SCSS/Tailwind for front-end development",
-            "Supported legacy code including JS, jQuery, AngularJS, and Handlebars",
-            "Implemented Gitlab CI/CD and Docker for efficient deployment processes",
-            "Conducted Behavior-Driven Development (BDD) using testcafe and gherkin-testcafe"
+            "Built frontend solutions using Angular, React, TypeScript, SCSS, and Tailwind.",
+            "Maintained legacy JavaScript, jQuery, AngularJS, and Handlebars code while modernizing applications.",
+            "Implemented GitLab CI/CD and Docker to standardize deployments.",
+            "Applied BDD practices with testcafe and gherkin-testcafe for desktop and mobile applications."
           ]
         },
         {
@@ -88,14 +66,12 @@
           "company": "DVELP",
           "dates": "November 2018 – December 2019",
           "location": "London (remote)",
-          "company_description": "DVELP specialized in creating contact centers and chatbots using React and Twilio Flex.",
+          "company_description": "DVELP delivered contact center and chatbot solutions using React and Twilio Flex.",
           "bullets": [
-            "Utilized Flutter for app development",
-            "Mentored junior developers",
-            "Led JS tips and best practices courses",
-            "Worked on React 16.9 projects, Next.js, Chart.js, SASS, TypeScript, ES6",
-            "Implemented Node.js with Express for backend development",
-            "Developed PoC using NativeScript for mobile native project"
+            "Delivered Flutter app development work and mentored junior engineers.",
+            "Led internal best-practice sessions for JavaScript and component development.",
+            "Built React, Next.js, Chart.js, SASS, and TypeScript applications with Node.js/Express backends.",
+            "Developed a NativeScript proof of concept for native mobile functionality."
           ]
         },
         {
@@ -103,15 +79,15 @@
           "company": "AND Digital",
           "dates": "August 2016 – November 2018",
           "location": "London",
-          "company_description": "AND Digital helps clients reach digital aspirations and upskills their teams through a digital learning Academy.",
+          "company_description": "AND Digital helps clients scale digital delivery and upskill teams through learning programs.",
           "bullets": [
-            "Worked with Angular, AngularJS, React, HTML5, CSS3 (Sass), Docker, CI, and Scrum",
-            "Conducted automated testing with Karma, Nightwatch, and Protractor",
-            "Mentored junior team members",
-            "WhiteStuff (Oct 2018 – Nov 2018): Refactored ecommerce site from jQuery to Angular",
-            "British Airways: Estimated Angular projects, created PoC integrating Angular 6 and React into AngularJS, studied frameworks for booking flow",
-            "The Telegraph (Jan 2018 – Jul 2018): Sole Front End Developer for UX and integration, worked on private accounts, payments, and subscriptions",
-            "Premier Inn – Whitbread (Dec 2016 – Sep 2017): Worked across multiple teams, created shareable AngularJS components, mentored developers, dockerized project"
+            "Delivered Angular, AngularJS, React, HTML5, CSS3/Sass, Docker, and CI solutions.",
+            "Created automated test suites with Karma, Nightwatch, and Protractor.",
+            "Mentored junior developers across multiple client engagements.",
+            "WhiteStuff (October 2018 – November 2018): refactored an ecommerce site from jQuery to Angular.",
+            "British Airways: estimated Angular projects, built a proof of concept integrating Angular 6 and React into AngularJS, and researched booking flow frameworks.",
+            "The Telegraph (January 2018 – July 2018): served as sole frontend developer for UX, payments, and subscription experiences.",
+            "Premier Inn / Whitbread: built reusable AngularJS components and Docker onboarding workflows."
           ]
         },
         {
@@ -119,13 +95,11 @@
           "company": "Nektan",
           "dates": "October 2015 – May 2016",
           "location": "London",
-          "company_description": "Nektan is a leading international B2B mobile gaming content developer and platform provider.",
+          "company_description": "Nektan is a B2B mobile gaming platform and content developer.",
           "bullets": [
-            "Developed new games using AngularJS, Canvas, ECMAScript 6, and HTML5",
-            "Designed and built a lobby website for new games",
-            "Implemented front-end design with Sass and CSS3",
-            "Managed version control using Git",
-            "Utilized Scrum methodology and JIRA"
+            "Developed HTML5 games and lobby interfaces using AngularJS, Canvas, ECMAScript 6, and Sass.",
+            "Built responsive game portals and managed Git-based version control.",
+            "Worked in Scrum with JIRA."
           ]
         },
         {
@@ -133,14 +107,11 @@
           "company": "Sopra Group",
           "dates": "September 2014 – September 2015",
           "location": "Madrid",
-          "company_description": "Sopra is a leading consulting firm in Spain.",
+          "company_description": "Sopra is a consulting firm serving clients like Sanitas and BBVA.",
           "bullets": [
-            "Developed websites for Sanitas using AngularJS and apps for BBVA using Ember.js",
-            "Implemented appointment management for BBVA",
-            "Proposed website architecture to clients",
-            "Set up local server using Node.js",
-            "Handled templates with Handlebars",
-            "Worked in AGILE MVC environment"
+            "Developed AngularJS websites for Sanitas and Ember.js applications for BBVA.",
+            "Built appointment management features and proposed architecture improvements.",
+            "Integrated Node.js local servers and Handlebars templates in an Agile MVC environment."
           ]
         },
         {
@@ -148,12 +119,10 @@
           "company": "Inmediastudio",
           "dates": "March 2013 – September 2014",
           "location": "Madrid",
-          "company_description": "Inmediastudio develops educational apps for Santillana.",
+          "company_description": "Inmediastudio created educational tablet apps for Santillana.",
           "bullets": [
-            "Developed web applications using JavaScript and jQuery",
-            "Utilized XML and JSON for language file management",
-            "Implemented a mobile-first approach",
-            "Architected projects for optimal performance"
+            "Built JavaScript and jQuery web applications with XML/JSON content management.",
+            "Delivered mobile-first educational experiences optimized for performance."
           ]
         },
         {
@@ -161,11 +130,10 @@
           "company": "Wion",
           "dates": "September 2012 – March 2013",
           "location": "Barcelona (remote)",
-          "company_description": "Wion specializes in digital marketing and website development for major companies.",
+          "company_description": "Wion built responsive websites and digital marketing solutions.",
           "bullets": [
-            "Developed back-end solutions using PHP and MySQL",
-            "Optimized images with Photoshop",
-            "Designed banners and carousels using jQuery"
+            "Implemented PHP/MySQL backend systems and responsive frontends.",
+            "Produced optimized image assets and rich jQuery interactions."
           ]
         },
         {
@@ -173,11 +141,10 @@
           "company": "Isotools",
           "dates": "April 2012 – September 2012",
           "location": "Córdoba",
-          "company_description": "Isotools is a consulting company with over 15 years of experience.",
+          "company_description": "Isotools is a consulting company focused on digital transformation.",
           "bullets": [
-            "Built an e-commerce website using Magento",
-            "Created website layouts using CSS3 and HTML5",
-            "Provided jQuery training sessions"
+            "Migrated management software from Flash to jQuery for better mobile compatibility.",
+            "Built Magento e-commerce sites using CSS3 and HTML5."
           ]
         },
         {
@@ -187,8 +154,8 @@
           "location": "Córdoba",
           "company_description": "Dissoft Sur is an online advertising company.",
           "bullets": [
-            "Developed websites using CMS platforms like Joomla, Prestashop, and Wordpress",
-            "Created CMS modules with JavaScript, jQuery, and PHP"
+            "Built CMS-driven websites with Joomla, Prestashop, and WordPress.",
+            "Developed custom JavaScript, jQuery, and PHP modules."
           ]
         },
         {
@@ -196,9 +163,9 @@
           "company": "Deidos Studio",
           "dates": "March 2010 – June 2010",
           "location": "Córdoba",
-          "company_description": "Deidos Studio specializes in website development.",
+          "company_description": "Deidos Studio delivers website development services.",
           "bullets": [
-            "Internship: utilized jQuery for front-end, designed responsive websites, used PHP with Zend Studio 1.7"
+            "Completed developer internship work using PHP, jQuery, and responsive design."
           ]
         },
         {
@@ -207,7 +174,9 @@
           "dates": "March 2008 – July 2008",
           "location": "Córdoba",
           "company_description": "PCCar is a computer repair and assembly company.",
-          "bullets": ["Fixed and built computers as part of Computer System studies"]
+          "bullets": [
+            "Built and repaired computers as part of Computer Systems practical training."
+          ]
         }
       ]
     },
@@ -218,19 +187,19 @@
           "title": "Applications Development",
           "dates": "2008 – 2010",
           "bullets": [
-            "Proficient in PHP, Java, Visual Basic, C#, and C++",
-            "Experienced in SQL/PL and phpMyAdmin",
-            "Skilled in RDBMS creation and data analysis"
+            "PHP, Java, Visual Basic, C#, C++",
+            "SQL/PL and phpMyAdmin",
+            "RDBMS creation and data analysis"
           ]
         },
         {
           "title": "Computer Systems",
           "dates": "2006 – 2008",
           "bullets": [
-            "Expertise in repair and assembly of computer equipment",
-            "Proficient in Windows and Linux (Fedora, Ubuntu)",
-            "Experienced in LAN wiring and capacity planning",
-            "Familiar with scripting for Linux, Windows, and Joomla CMS"
+            "Computer hardware repair and assembly",
+            "Windows and Linux administration",
+            "LAN wiring and capacity planning",
+            "Basic scripting for Linux, Windows, and Joomla CMS"
           ]
         },
         {
@@ -241,15 +210,16 @@
         {
           "title": "Database Management",
           "dates": "2011",
-          "bullets": ["Skilled in creating and managing RDBMS using MySQL and PL/SQL"]
+          "bullets": [
+            "MySQL and PL/SQL database design and management"
+          ]
         },
         {
           "title": "Commerce and Marketing",
           "dates": "2011 – 2012",
           "bullets": [
-            "Knowledgeable in marketing at the point of sale",
-            "Experienced in creating effective marketing campaigns",
-            "Skilled in market research for business creation"
+            "Marketing campaigns and point-of-sale strategy",
+            "Commercial logistics and market research"
           ]
         }
       ]

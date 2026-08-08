@@ -1,30 +1,27 @@
 D A N I E L  R O D R I G U E Z
 
-Experienced software developer specializing in website and mobile app development since 2010\. Continually expanding my technology skill set to drive software innovation.
+Lead Software Developer specializing in scalable web and mobile app development, with 16 years of experience delivering high-performance digital products and managing client-facing technical engagements. Having previously lived and worked in London, seeking hybrid engineering roles in the city.
 
 C O N T A C T
 
-| 			 Email: hello@dani-rodriguez.info | 			 Linkedin: [Daniel Rodríguez Ramírez](https://www.linkedin.com/in/daniel-rodr%C3%ADguez-ram%C3%ADrez-6373a391/) |
+| 			 Email: hello@dani-rodriguez.info | 			 Linkedin: [Daniel Rodríguez Ramírez](https://www.linkedin.com/in/daniel-rodriguez-ramirez-6373a391/) |
 | :---- | :---- |
 | Github: [https://github.com/erperejildo](https://github.com/erperejildo) | Stackoverflow: [4858133](https://stackoverflow.com/users/4858133/dani) |
 
 E X P E R I E N C E
 
-SENIOR MOBILE DEVELOPER AT DRODRIGUEZ.APPS  
+FOUNDER & LEAD MOBILE DEVELOPER AT AXIS LABS  
 August 2014 · present
 
-Self-driven mobile app development, focusing on native and hybrid apps for Android and iOS. Check [here](https://drodriguez-apps.github.io/) my portfolio.
+Built a profitable mobile [application business](https://axislabs.eu/) from the ground up, delivering comprehensive B2B and B2C software solutions. Oversee all aspects of product engineering, cloud infrastructure, and user acquisition for a portfolio of apps serving active, paying subscribers.
 
-- Developed native and hybrid mobile apps using Flutter, PhoneGap/Cordova with Angular, Ionic, TypeScript, and various JavaScript libraries  
-- AI use to automate work between all my apps and create shareable packages  
-- Use of Figma to generate all the designs and the store screenshots  
-- Created home screen widgets in Kotlin from scratch  
-- Ran Flutter courses for co-workers  
-- Utilized Firebase (firestore database, authentication, cloud functions, crashlytics) and Meteor (JavaScript \+ Node.js \+ MongoDB) for full-stack projects  
-- Implemented Gitlab CI and Docker for CI/CD automation in DevOps  
-- Managed marketing activities such as Google Ads campaigns and promotions, designed logos using Photoshop and Illustrator, and engineered project architecture from inception  
-- Executed ASO strategies to enhance mobile app downloads and conducted SEO on micro niches  
-- For more information on my personal projects, please visit my [Linkedin profile](https://www.linkedin.com/in/daniel-rodr%C3%ADguez-ram%C3%ADrez-6373a391/).
+- **Commercial App Portfolio:** Designed, developed, and launched multiple commercial applications (like [My Rents](https://myrents-app.com/)). Established diverse revenue streams through active subscription models and sophisticated ad monetization strategies, implementing AdMob and ad provider mediation to maximize fill rates and yield.  
+- **Full-Stack Engineering:** Led mobile and web development using Flutter. Architected robust backend systems utilizing Firebase.  
+- **Open-Source Infrastructure:** Engineered and published high-performance Flutter packages to the open-source Flutter community ([pub.dev](https://pub.dev/packages/rewarded_ad_counter)), abstracting complex native integrations and state management into efficient, reusable modular solutions for other developers.
+- **DevOps & Workflow Optimization:** Established enterprise-grade DevOps practices, including GitLab/GitHub CI and Docker for deployment automation. Built custom, shareable AI-driven automation packages to synchronize workflows across multiple codebases.  
+- **Native Android Development:** Engineered native Android components, including building custom Kotlin-based home screen widgets to drive daily active usage.  
+- **Growth Marketing & Design:** Managed the complete brand identity and product design using Figma, Photoshop, and Illustrator. Executed data-driven ASO, SEO, and paid acquisition campaigns to capture market share.  
+- **Mentorship:** Acted as a technical mentor, developing and teaching Flutter curriculum to upskill peers and co-workers in multiple companies.
 
 SENIOR FRONT END DEVELOPER AT PLAYTESTCLOUD  
 February 2025 · February 2026 (Berlin remote)
@@ -111,7 +108,6 @@ Nektan is a leading international B2B mobile gaming content developer and platfo
 - Managed version control using Git system  
 - Utilized Scrum methodology and JIRA for project management
 
-
 SENIOR FRONT END DEVELOPER AT SOPRA GROUP  
 September 2014 · September 2015 (Madrid)
 
@@ -177,14 +173,14 @@ My first job as a technician at PCCar involved fixing broken computers and build
 
 E D U C A T I O N
 
-APPLICATIONS DEVELOPMENT  
+DESARROLLO DE APLICACIONES INFORMÁTICAS (software development)  
 2008 · 2010
 
 - Proficient in multiple programming languages including PHP, Java, Visual Basic, C\#, and C++.  
 - Experienced in SQL/PL and phpMyAdmin.  
 - Skilled in RDBMS creation and data analysis.
 
-COMPUTER SYSTEMS  
+EXPLOTACIÓN DE SISTEMAS INFORMÁTICOS (hardware repair)  
 2006 · 2008
 
 - Expertise in repair and assembly of computer equipment.  
